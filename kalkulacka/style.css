@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+header {
+    padding: 10px;
+    color: white;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+header:hover {
+    transform: scale(1.1);
+}
+
+main {
+    margin: 20px;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    padding: 40px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+    border-radius: 20px;
+}
+
+main:hover {
+    transform: scale(1.1);
+}
+
+input {
+    font-size: 1em;
+    text-align: center;
+    border-radius: 20px;
+    border: solid;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+input:focus {
+    transform: scale(1.1);
+    border-color: #2980b9;
+}
+
+button {
+    font-size: 1em;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(14, 153, 14);
+    transform: scale(1.1);
+}
+
+
+button:active {
+    background-color: rgb(45, 202, 45);
+}
+
+
+
+
+
+
